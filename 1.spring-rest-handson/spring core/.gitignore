@@ -1,0 +1,15 @@
+target/
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+*.log
+logs/
+.DS_Store
+Thumbs.db
+desktop.ini
