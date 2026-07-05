@@ -1,0 +1,30 @@
+{
+  "info": {
+    "name": "Create authentication service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Authenticate",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "basic",
+          "basic": [
+            { "key": "username", "value": "user", "type": "string" },
+            { "key": "password", "value": "pwd", "type": "string" }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8090/authenticate",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8090",
+          "path": ["authenticate"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
